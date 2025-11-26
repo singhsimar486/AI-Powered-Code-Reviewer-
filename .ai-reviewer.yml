@@ -1,0 +1,11 @@
+python:
+  enable_ast_rules: true
+  linters:
+    - flake8
+    - bandit
+openai:
+  enabled: false
+  model: gpt-4.1-mini
+  max_context_messages: 10
+report:
+  max_issues: 50
